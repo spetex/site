@@ -2,7 +2,7 @@ html, body {
   background-color: #fffdf7;
   color: #0a2342;
 
-  font-family: 'Ibarra Real Nova', serif;
+  font-family: 'Fira Sans', sans-serif;
   font-size: 16px;
 
   display: flex;
@@ -17,7 +17,6 @@ body {
 }
 
 section {
-  min-width: 400px;
   height: 100vh;
   padding-top: 3rem;
 }
@@ -26,9 +25,8 @@ p {margin-bottom: 1.25em;}
 
 h1, h2, h3, h4, h5 {
   margin: 2.75rem 0 1rem;
-  font-family: 'Ibarra Real Nova', serif;
   font-weight: 400;
-  line-height: 1.15;
+  line-height: 1.25;
 }
 
 h1 {
@@ -43,5 +41,38 @@ h5 {font-size: 1.25em;}
 small, .text_small {font-size: 0.8em;}
 
 a {
-  color: #2ca58d;
+  color: #de3c4b;
+}
+
+ul {
+  line-height: 1.7;
+  list-style: none;
+  padding-left: 0;
+}
+
+.avatar {
+  margin-top: 2rem;
+  border-radius: 100%;
+  width: 8rem;
+}
+
+.two-column {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 1.2rem;
+  margin-right: 1rem;
+}
+
+#main aside {
+  margin-top: 2rem;
+}
+
+.social {
+  width: 2.5rem;
+  margin-right: 0.7rem;
+  fill: #2ca58d;
 }
