@@ -17,8 +17,11 @@ body {
 }
 
 section {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+
   height: 100vh;
-  padding-top: 3rem;
 }
 
 p {margin-bottom: 1.25em;}
@@ -48,6 +51,17 @@ ul {
   line-height: 1.7;
   list-style: none;
   padding-left: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 3rem;
+}
+
+.disabled {
+  cursor: not-allowed;
 }
 
 .avatar {
