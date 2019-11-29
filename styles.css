@@ -13,7 +13,10 @@ body {
   margin-right: 2rem;
 }
 
-p {margin-bottom: 1.25rem;}
+p {
+  font-size: 2.5rem;
+  margin-bottom: 1.25rem;
+}
 
 h1, h2, h3, h4, h5 {
   margin: 2.75rem 0 1rem;
@@ -44,7 +47,7 @@ ul {
   line-height: 1.7;
   list-style: none;
   padding-left: 0;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 
 section {
@@ -116,7 +119,7 @@ nav {
   #main aside {
     margin-top: 1.5rem;
   }
-  nav {
+  nav, p, ul {
     font-size: 1rem;
   }
 }
