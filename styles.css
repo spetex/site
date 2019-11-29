@@ -3,7 +3,7 @@ html, body {
   color: #0a2342;
 
   font-family: 'Fira Sans', sans-serif;
-  font-size: 1rem;
+  font-size: 16px;
 }
 
 body {
@@ -44,6 +44,7 @@ ul {
   line-height: 1.7;
   list-style: none;
   padding-left: 0;
+  font-size: 1.5rem;
 }
 
 section {
