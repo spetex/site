@@ -33,11 +33,7 @@ h2 {
   margin-top: 5rem;
 }
 
-h2 {font-size: 2.441rem;}
-h3 {font-size: 1.953rem;}
-h4 {font-size: 1.563rem;}
-h5 {font-size: 1.25rem;}
-small, .text_small {font-size: 0.8rem;}
+h2 {font-size: 6rem;}
 
 a {
   color: #de3c4b;
@@ -106,6 +102,9 @@ nav {
   }
   h1 {
     font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.5rem;
   }
   .avatar {
     width: 8rem;
