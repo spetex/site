@@ -2,11 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="./normalize.css">
-    <link rel="stylesheet" type="text/css" href="./styles.css">
-     <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
     <title>Pete's Website - spetex.cz</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
     <!--- Icons taken from FontAwesome, thank you! https://fontawesome.com/license --->
+    <script src="https://kit.fontawesome.com/69f7830acf.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="./reset.css">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
   </head>
   <body>
     <div>
@@ -19,79 +22,70 @@
               <p>Hello, my name is <strong>Petr Sahula</strong> and I...</p>
               <ul>
                 <li>
-                  <img class="icon" alt="laptop icon" src="./images/laptop-code-solid.svg">
-                  earn living as a <a href="#frontend">frontend developer</a>.</li>
-                <li>
-                  <img class="icon" alt="palette icon" src="./images/palette-solid.svg">
-                  am passionate about <a href="#minis">miniature painting</a>.
+                  <span class="icon"><i class="fas fa-laptop"></i></span> earn living as a <a href="#frontend">frontend developer</a>.
                 </li>
                 <li>
-                  <img class="icon" alt="bike icon" src="./images/biking-solid.svg">
-                  enjoy bicycle touring.
+                  <span class="icon"><i class="fas fa-palette"></i></span> am passionate about <a href="#minis">miniature painting</a>.
                 </li>
                 <li>
-                  <img class="icon" alt="camera icon" src="./images/camera-solid.svg">
-                  am interested in nature photography.
+                  <span class="icon"><i class="fas fa-bicycle"></i></span> enjoy bicycle touring.
                 </li>
                 <li>
-                  <img class="icon" alt="dog icon" src="./images/dog-solid.svg">
-                  own a dog.
+                  <span class="icon"><i class="fas fa-camera"></i></span> am interested in nature photography.
                 </li>
                 <li>
-                  <img class="icon" alt="coffee icon" src="./images/coffee-solid.svg">
-                  love a good cup of coffee.
+                  <span class="icon"><i class="fas fa-dog"></i></span> own a dog.
+                </li>
+                <li>
+                  <span class="icon"><i class="fas fa-coffee"></i></span> love a good cup of coffee.
                 </li>
               </ul>
             </div>
           </div>
-          <aside>
-            <a href="mailto:spetex@icloud.com"><img src="./images/envelope-square-solid.svg" class="social" alt="email"><a>
-            <a href="https://blog.spetex.cz" target="_blank"><img src="./images/rss-square-solid.svg" class="social" alt="blog"></a>
-            <a href="https://www.instagram.com/spetex.minis/" target="_blank"><img src="./images/instagram-brands.svg" class="social" alt="instagram"></a>
-            <a href="https://github.com/spetex/" target="_blank"><img src="./images/github-square-brands.svg" class="social" alt="github"></a>
-            <a href="https://www.youtube.com/channel/UCh6uIKKKDQw-cHyqpnod6xw" target="_blank"><img src="./images/youtube-square-brands.svg" class="social" alt="youtube"></a>
-            <a href="https://www.last.fm/user/sahulpet" target="_blank"><img src="./images/lastfm-square-brands.svg" class="social" alt="last.fm"></a>
+          <aside class="social">
+            <a href="mailto:spetex@icloud.com"><i class="fas fa-envelope-square"></i><a>
+            <a href="https://blog.spetex.cz" target="_blank"><i class="fas fa-rss-square"></i></a>
+            <a href="https://www.instagram.com/spetex.minis/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/spetex/" target="_blank"><i class="fab fa-github-square"></i></a>
+            <a href="https://www.youtube.com/channel/UCh6uIKKKDQw-cHyqpnod6xw" target="_blank"><i class="fab fa-youtube-square"></i></a>
+            <a href="https://www.last.fm/user/sahulpet" target="_blank"><i class="fab fa-lastfm-square"></i></a>
           </aside>
         </div>
         <nav>
-          <span class="disabled">back</span>
-          <span class="disabled">home</span>
-          <a href="#frontend">next</a>
+          <div class="disabled">back</div>
+          <div class="disabled">home</div>
+          <div><a href="#frontend">next</a></div>
         </nav>
       </section>
 
       <section id="frontend">
         <div>
-          <h2>Frontend Development</h2>
+          <h3>Frontend Development</h3>
           <p>I am currently employed as a frontend developer at a Czech event/culture guide and ticket selling company <a href="https://goout.net" target="_blank">GoOut</a>. It is an awesome product and you should probably check it out if you live in central Europe!</p>
           <p>I work with <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a> or <a href="https://typescriptlang.org" target="_blank">TypeScript</a> in my day to day work. Mostly building web apps using mainstream frameworks like <a href="https://reactjs.org" target="_blank">React</a>, <a href="https://angular.io" target="_blank">Angular</a> or <a href="https://vuejs.org" target="_blank">Vue.js</a>. I do not prefer any particular framework or library. My preference is clean, well tested code and good architecture.</p>
           <p>Outside of work I have coded projects in <a href="https://python.org" target="_blank">Python</a>, <a href="https://rust-lang.org" target="_blank">Rust</a>, <a href="https://php.net" target="_blank">PHP</a> and most recently <a href="https://www.ruby-lang.org/en/" target="_blank">Ruby</a>. I like to educate myself in computer science topics and learn new computer languages. It gives me a fresh perspective on my day job.</p>
-          <p>I am a proud <a href="https://en.wikipedia.org/wiki/Linux" target="_blank">Linux</a> operating system user. My distribution of choice is <a href="https://gentoo.org" target="_blank">Gentoo</a> which I use on my personal computer, my home <a href="https://en.wikipedia.org/wiki/Raspberry_Pi" target="_blank">Raspberry Pi</a> and a server <a href="https://1984.is" target="_blank">hosted on Iceland</a>. I enjoy tinkering with linux components like kernel or different filesystems.</p>
+          <p>I am a proud <a href="https://en.wikipedia.org/wiki/Linux" target="_blank">Linux</a> operating system user. My distribution of choice is <a href="https://gentoo.org" target="_blank">Gentoo</a> which I use on my personal computer, my home <a href="https://en.wikipedia.org/wiki/Raspberry_Pi" target="_blank">Raspberry Pi</a> and a server <a href="https://1984.is" target="_blank">hosted on Iceland</a>.</p>
         </div>
         <nav>
-          <a href="#main">back</a>
-          <a href="#main">home</a>
-          <a href="#minis">next</a>
+          <div><a href="#main">back</a></div>
+          <div><a href="#main">home</a></div>
+          <div><a href="#minis">next</a></div>
         </nav>
       </section>
 
       <section id="minis">
         <div>
-          <h2>Miniature Painting</h2>
+          <h3>Miniature Painting</h3>
           <p>Miniature painting is my go to activity in my free time after work and on weekends. I got hooked in with the hobby in February 2018 and I am there it ever since. </p>
-
           <p>For me as a nature of my occupation is to sit and stare into a computer screen for more than 8 hours every day. This fact is taking a toll on my posture and sight. After couple of years in this trade I got really tired of it. I have started to not carry my smartphone or practicing analog evenings from time to time. In one of those evenigs I came to a realization. I need a unplugged - no internet, no computer hobby. Preferably using my hands. I tried many things: playing the drums being one of those but not a single one quite clicked with me so I left it at that.</p>
-
           <p>In February 2018 I was walking the streets of Edinburgh and spotted an interesting shop. It was a Games Workshop Hobby Store. I went in and I instantly knew this is it. This is the thing I was looking for a long time. Right after I came back from my vacation in Scotland I bought my first Warhammer 40k rulebook, first model and some paints. I was extatic.</p>
-
           <p>Fast forward to 2020 my passion for miniature painting is slowly outgrowing my passion for computers. As I am getting older I am looking for some thing I can do to earn my money on my own. Programming and software development side projects are lacking the material aspect for me. I love to work with my hands.</p>
-
           <p>I have decided that I will make this hobby also my living.</p>
         </div>
         <nav>
-          <a href="#frontend">back</a>
-          <a href="#main">home</a>
-          <span class="disabled">next</span>
+          <div><a href="#frontend">back</a></div>
+          <div><a href="#main">home</a></div>
+          <div class="disabled">next</div>
         </nav>
       </section>
     </div>
