@@ -7,7 +7,7 @@ body {
   font-weight: 400;
   line-height: 1.45;
 }
-p {
+p, ol {
   margin-bottom: 1.25em;
 }
 h1, h2, h3, h4, h5 {
@@ -41,6 +41,19 @@ nav {
 }
 ul {
   line-height: 1.7;
+}
+li > ul {
+  margin-left: 1rem;
+}
+ol {
+  list-style: decimal;
+}
+ol > li {
+  margin-top: 1rem;
+  font-weight: 600;
+}
+li > ul {
+  font-weight: 400;
 }
 
 /* Colours */
