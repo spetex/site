@@ -67,8 +67,8 @@ body {
   display: flex;
   justify-content: space-around;
 
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 section {
   display: flex;
@@ -119,7 +119,7 @@ body > div {
   margin-bottom: 2rem;
 }
 .social {
-  font-size: 3rem;
+  font-size: 2.4rem;
   margin-top: 2rem;
 }
 .social a {
@@ -148,13 +148,5 @@ body > div {
   }
   .two-column > div {
     margin-top: 0;
-  }
-}
-
-/* High-res mobiles */
-@media only screen and (min-resolution: 97dpi),
-only screen and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait) {
-  html {
-    font-size: 32px;
   }
 }
