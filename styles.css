@@ -112,6 +112,12 @@ body > div {
   display: inline-block;
   min-width: 2rem;
 }
+.in-text {
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 .social {
   font-size: 42px;
   margin-top: 2rem;
