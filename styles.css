@@ -150,3 +150,11 @@ body > div {
     margin-top: 0;
   }
 }
+
+/* High-res mobiles */
+@media only screen and (min-resolution: 97dpi),
+only screen and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait) {
+  html {
+    font-size: 32px;
+  }
+}
