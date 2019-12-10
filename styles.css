@@ -45,12 +45,19 @@ li > ul {
 ol {
   list-style: decimal;
 }
+li > ul {
+  display: inline;
+  list-style: square inside;
+}
 ol > li {
   margin-top: 1rem;
   font-weight: 600;
 }
 li > ul {
   font-weight: 400;
+}
+#main li {
+  display: flex;
 }
 
 /* Colours */
