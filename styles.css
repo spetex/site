@@ -63,7 +63,7 @@ body {
   color: #0a2342;
 }
 a {
-  color: #de3c4b;
+  color: #dc3243;
 }
 
 /* Layout */
@@ -131,7 +131,7 @@ body > div {
   color: #0a2342;
 }
 .social a:hover {
-  color: #de3c4b;
+  color: #dc3243;
 }
 /* Wide-screen */
 @media only screen and (orientation: landscape) and (min-width: 640px) {
