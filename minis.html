@@ -18,14 +18,20 @@
         <div>
           <h1>Miniature Painting</h1>
           <picture>
-            <source srcset="
-              https://static.spetex.cz/photos/webp1000px/me-painter.webp 1000w,
-              https://static.spetex.cz/photos/webp500px/me-painter.webp 500w
-            " type="image/webp">
-            <source srcset="
-              https://static.spetex.cz/photos/jpeg1000px/me-painter.jpg 1000w,
-              https://static.spetex.cz/photos/jpeg500px/me-painter.jpg 500w
-            " type="image/jpeg">
+            <source
+              srcset="
+                https://static.spetex.cz/photos/webp1000px/me-painter.webp 1000w,
+                https://static.spetex.cz/photos/webp500px/me-painter.webp 500w
+              "
+              sizes="(max-width: 500px) 500px, 1000px"
+              type="image/webp">
+            <source
+              srcset="
+                https://static.spetex.cz/photos/webp1000px/me-painter.jpg 1000w,
+                https://static.spetex.cz/photos/webp500px/me-painter.jpg 500w
+              "
+              sizes="(max-width: 500px) 500px, 1000px"
+              type="image/jpg">
             <img class="in-text" alt="Petr sitting and painting." src="https://static.spetex.cz/photos/jpeg1000px/me-painter.jpg">
           </picture>
           <p>Miniature painting is my go to activity after work and on the weekends. Passion for this hobby is slowly replacing my passion for programming. Instead of staying up late to code I now stay up late to paint.</p>
